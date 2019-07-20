@@ -1,20 +1,22 @@
 import setuptools
 
-with open("README.md", "r") as fh:
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
+version = __import__('prettyjson').__version__
+
 setuptools.setup(
-    name="prettyjson",
-    version="1.0.1",
-    author="vimfun",
-    author_email="vimfunny@gmail.com",
-    description="Command-line tool to validate and pretty-print JSON(just for the missing options in `json.tool`)",
+    name='prettyjson',
+    version=version,
+    author='vimfun',
+    author_email='vimfunny@gmail.com',
+    description='Command-line tool to validate and pretty-print JSON(just for the missing options in `json.tool`)',
 
     long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="https://github.com/vimfunny/prettyjson",
+    long_description_content_type='text/markdown',
+    url='https://github.com/vimfunny/prettyjson',
     packages=setuptools.find_packages(),
-    # packages=['example_pkg'],
+    license='PSF license',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
 
@@ -25,7 +27,7 @@ setuptools.setup(
 
         'Environment :: Console',
 
-        "Operating System :: OS Independent",
+        'Operating System :: OS Independent',
 
         'Programming Language :: Python',
         'Programming Language :: Python :: 3',
@@ -34,5 +36,10 @@ setuptools.setup(
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
         'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3 :: Only',
+
+        'Topic :: System :: Shells',
+        'Topic :: Text Processing',
+        'Topic :: Text Processing :: Filters',
     ],
 )
