@@ -8,7 +8,7 @@ setuptools.setup(
     version="1.0.1",
     author="vimfun",
     author_email="vimfunny@gmail.com",
-    description="Tool for printing pretty JSON (just for the missing options in `json.tool`)",
+    description="Command-line tool to validate and pretty-print JSON(just for the missing options in `json.tool`)",
 
     long_description=long_description,
     long_description_content_type="text/markdown",
