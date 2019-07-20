@@ -12,5 +12,7 @@ Usage::
 """
 from .tool import main
 
+name = 'prettyjson'
+
 if __name__ == '__main__':
     main()
