@@ -2,8 +2,8 @@
 Tool for printing pretty JSON (just for the missing options in `json.tool`)
 
 For the issues in [Python bug tracker](https://bugs.python.org):
-    * [Specifying indent in the json.tool command](https://bugs.python.org/issue29636)
-    * [Add an option to json.tool to bypass non-ASCII characters](https://bugs.python.org/issue27413)
+* [Specifying indent in the json.tool command](https://bugs.python.org/issue29636)
+* [Add an option to json.tool to bypass non-ASCII characters](https://bugs.python.org/issue27413)
 
 ## Installing
 
